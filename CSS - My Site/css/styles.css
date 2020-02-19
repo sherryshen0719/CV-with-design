@@ -1,0 +1,139 @@
+body {
+  text-align: center;
+  font-family: 'Quattrocento Sans', sans-serif;
+  margin: 0px 0px;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 500%;
+  font-family: 'Sacramento', sans-serif;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Armata', sans-serif;
+  font-size: 2rem;
+  color: #66BFBF;
+  font-weight: normal
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Armata', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Armata', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#EAF6F6;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background-color: #ECF6F9;
+}
+
+.middle-container {
+  margin: 50px auto;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 290px;
+}
+
+.profilepic {
+  width: 200px;
+  height: 200px;
+}
+
+.com-image{
+  float:left;
+  margin-right: 30px;
+}
+
+.cook-image{
+  float:right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width:50%;
+  margin: 100px auto;
+  text-align:left;
+}
+
+.intro{
+  width:30%;
+  margin:0px auto;
+}
+
+
+.contactButton {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #46b0d6 5%, #476e9e 100%);
+	background-color:#46b0d6;
+	border-radius:10px;
+	border:1px solid #a8b6e0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: 'Armata', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.contactButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #46b0d6 100%);
+	background-color:#476e9e;
+}
+.contactButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto;
+}
